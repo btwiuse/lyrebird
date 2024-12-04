@@ -38,9 +38,9 @@ import (
 	"strings"
 
 	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/goptlib"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/csrand"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/drbg"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/ntor"
+	"github.com/btwiuse/lyrebird/common/csrand"
+	"github.com/btwiuse/lyrebird/common/drbg"
+	"github.com/btwiuse/lyrebird/common/ntor"
 )
 
 const (

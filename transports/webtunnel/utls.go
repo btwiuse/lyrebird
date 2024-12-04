@@ -6,7 +6,7 @@ import (
 
 	utls "github.com/refraction-networking/utls"
 
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/utlsutil"
+	"github.com/btwiuse/lyrebird/common/utlsutil"
 )
 
 type uTLSConfig struct {

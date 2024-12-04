@@ -29,7 +29,7 @@ import (
 	"sync"
 
 	utls "github.com/refraction-networking/utls"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/base"
+	"github.com/btwiuse/lyrebird/transports/base"
 	"golang.org/x/net/http2"
 )
 

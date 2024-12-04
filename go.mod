@@ -1,4 +1,4 @@
-module gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird
+module github.com/btwiuse/lyrebird
 
 require (
 	filippo.io/edwards25519 v1.1.0

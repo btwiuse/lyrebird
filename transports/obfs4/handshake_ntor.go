@@ -38,10 +38,10 @@ import (
 	"strconv"
 	"time"
 
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/csrand"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/ntor"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/replayfilter"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/obfs4/framing"
+	"github.com/btwiuse/lyrebird/common/csrand"
+	"github.com/btwiuse/lyrebird/common/ntor"
+	"github.com/btwiuse/lyrebird/common/replayfilter"
+	"github.com/btwiuse/lyrebird/transports/obfs4/framing"
 )
 
 const (

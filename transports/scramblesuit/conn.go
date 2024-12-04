@@ -43,10 +43,10 @@ import (
 	"time"
 
 	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/goptlib"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/csrand"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/drbg"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/probdist"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/uniformdh"
+	"github.com/btwiuse/lyrebird/common/csrand"
+	"github.com/btwiuse/lyrebird/common/drbg"
+	"github.com/btwiuse/lyrebird/common/probdist"
+	"github.com/btwiuse/lyrebird/common/uniformdh"
 )
 
 const (

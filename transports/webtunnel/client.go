@@ -12,7 +12,7 @@ import (
 	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/webtunnel/transport/httpupgrade"
 	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/webtunnel/transport/tls"
 
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/base"
+	"github.com/btwiuse/lyrebird/transports/base"
 )
 
 type clientConfig struct {

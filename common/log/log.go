@@ -27,7 +27,7 @@
 
 // Package log implements a simple set of leveled logging wrappers around the
 // standard log package.
-package log // import "gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/log"
+package log // import "github.com/btwiuse/lyrebird/common/log"
 
 import (
 	"fmt"

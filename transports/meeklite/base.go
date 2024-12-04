@@ -30,14 +30,14 @@
 // made to normalize the TLS fingerprint.
 //
 // It borrows quite liberally from the real meek-client code.
-package meeklite // import "gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/meeklite"
+package meeklite // import "github.com/btwiuse/lyrebird/transports/meeklite"
 
 import (
 	"fmt"
 	"net"
 
 	pt "gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/goptlib"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/base"
+	"github.com/btwiuse/lyrebird/transports/base"
 )
 
 const transportName = "meek_lite"

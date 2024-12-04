@@ -42,7 +42,7 @@ import (
 	"sync"
 	"time"
 
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/csrand"
+	"github.com/btwiuse/lyrebird/common/csrand"
 )
 
 const (

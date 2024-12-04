@@ -27,7 +27,7 @@
 
 // Package obfs3 provides an implementation of the Tor Project's obfs3
 // obfuscation protocol.
-package obfs3 // import "gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/obfs3"
+package obfs3 // import "github.com/btwiuse/lyrebird/transports/obfs3"
 
 import (
 	"bytes"
@@ -41,9 +41,9 @@ import (
 	"time"
 
 	pt "gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/goptlib"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/csrand"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/uniformdh"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/base"
+	"github.com/btwiuse/lyrebird/common/csrand"
+	"github.com/btwiuse/lyrebird/common/uniformdh"
+	"github.com/btwiuse/lyrebird/transports/base"
 )
 
 const (

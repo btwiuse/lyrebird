@@ -27,7 +27,7 @@
 
 // Package obfs4 provides an implementation of the Tor Project's obfs4
 // obfuscation protocol.
-package obfs4 // import "gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/obfs4"
+package obfs4 // import "github.com/btwiuse/lyrebird/transports/obfs4"
 
 import (
 	"bytes"
@@ -43,12 +43,12 @@ import (
 	"time"
 
 	pt "gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/goptlib"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/drbg"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/ntor"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/probdist"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/replayfilter"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/base"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/obfs4/framing"
+	"github.com/btwiuse/lyrebird/common/drbg"
+	"github.com/btwiuse/lyrebird/common/ntor"
+	"github.com/btwiuse/lyrebird/common/probdist"
+	"github.com/btwiuse/lyrebird/common/replayfilter"
+	"github.com/btwiuse/lyrebird/transports/base"
+	"github.com/btwiuse/lyrebird/transports/obfs4/framing"
 )
 
 const (

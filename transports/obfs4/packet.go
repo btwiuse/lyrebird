@@ -33,8 +33,8 @@ import (
 	"fmt"
 	"io"
 
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/drbg"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/obfs4/framing"
+	"github.com/btwiuse/lyrebird/common/drbg"
+	"github.com/btwiuse/lyrebird/transports/obfs4/framing"
 )
 
 const (

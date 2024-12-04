@@ -31,8 +31,8 @@ import (
 	"bytes"
 	"testing"
 
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/ntor"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/replayfilter"
+	"github.com/btwiuse/lyrebird/common/ntor"
+	"github.com/btwiuse/lyrebird/common/replayfilter"
 )
 
 func TestHandshakeNtorClient(t *testing.T) {

@@ -42,10 +42,10 @@ import (
 	"syscall"
 
 	pt "gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/goptlib"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/log"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/socks5"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/base"
+	"github.com/btwiuse/lyrebird/common/log"
+	"github.com/btwiuse/lyrebird/common/socks5"
+	"github.com/btwiuse/lyrebird/transports"
+	"github.com/btwiuse/lyrebird/transports/base"
 	sf "gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/v2/client/lib"
 	"golang.org/x/net/proxy"
 )

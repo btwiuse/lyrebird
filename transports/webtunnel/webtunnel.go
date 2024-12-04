@@ -5,7 +5,7 @@ import (
 
 	pt "gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/goptlib"
 
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/base"
+	"github.com/btwiuse/lyrebird/transports/base"
 )
 
 const (

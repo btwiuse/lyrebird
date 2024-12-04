@@ -27,21 +27,21 @@
 
 // Package transports provides a interface to query supported pluggable
 // transports.
-package transports // import "gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports"
+package transports // import "github.com/btwiuse/lyrebird/transports"
 
 import (
 	"fmt"
 	"sync"
 
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/snowflake"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/webtunnel"
+	"github.com/btwiuse/lyrebird/transports/snowflake"
+	"github.com/btwiuse/lyrebird/transports/webtunnel"
 
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/base"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/meeklite"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/obfs2"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/obfs3"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/obfs4"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/scramblesuit"
+	"github.com/btwiuse/lyrebird/transports/base"
+	"github.com/btwiuse/lyrebird/transports/meeklite"
+	"github.com/btwiuse/lyrebird/transports/obfs2"
+	"github.com/btwiuse/lyrebird/transports/obfs3"
+	"github.com/btwiuse/lyrebird/transports/obfs4"
+	"github.com/btwiuse/lyrebird/transports/scramblesuit"
 )
 
 var transportMapLock sync.Mutex

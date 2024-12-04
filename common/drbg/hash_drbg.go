@@ -27,7 +27,7 @@
 
 // Package drbg implements a minimalistic DRBG based off SipHash-2-4 in OFB
 // mode.
-package drbg // import "gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/drbg"
+package drbg // import "github.com/btwiuse/lyrebird/common/drbg"
 
 import (
 	"encoding/binary"
@@ -36,7 +36,7 @@ import (
 	"hash"
 
 	"github.com/dchest/siphash"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/csrand"
+	"github.com/btwiuse/lyrebird/common/csrand"
 )
 
 // Size is the length of the HashDrbg output.

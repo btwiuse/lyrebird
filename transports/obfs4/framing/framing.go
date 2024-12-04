@@ -59,7 +59,7 @@
 // transmitted over the wire as both sides of the conversation know the prefix
 // and the initial counter value.  It is imperative that the counter does not
 // wrap, and sessions MUST terminate before 2^64 frames are sent.
-package framing // import "gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/obfs4/framing"
+package framing // import "github.com/btwiuse/lyrebird/transports/obfs4/framing"
 
 import (
 	"bytes"
@@ -68,8 +68,8 @@ import (
 	"fmt"
 	"io"
 
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/csrand"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/drbg"
+	"github.com/btwiuse/lyrebird/common/csrand"
+	"github.com/btwiuse/lyrebird/common/drbg"
 	"golang.org/x/crypto/nacl/secretbox"
 )
 

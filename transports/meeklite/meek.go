@@ -34,7 +34,7 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/common/utlsutil"
+	"github.com/btwiuse/lyrebird/common/utlsutil"
 	"io"
 	"io/ioutil"
 	"net"
@@ -48,7 +48,7 @@ import (
 	utls "github.com/refraction-networking/utls"
 
 	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/goptlib"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird/transports/base"
+	"github.com/btwiuse/lyrebird/transports/base"
 )
 
 const (
