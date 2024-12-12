@@ -6,13 +6,13 @@ require (
 	github.com/refraction-networking/utls v1.6.7
 	gitlab.com/yawning/edwards25519-extra v0.0.0-20231005122941-2149dcafc266
 	gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/goptlib v1.5.0
+	gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/v2 v2.9.2
 	gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/webtunnel v0.0.0-20240711104640-e64b1b3562f3
-	golang.org/x/crypto v0.28.0
+	golang.org/x/crypto v0.31.0
 	golang.org/x/net v0.30.0
 )
 
 require (
-	git.torproject.org/pluggable-transports/snowflake.git/v2 v2.5.1 // indirect
 	github.com/andybalholm/brotli v1.0.6 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.25.3 // indirect
 	github.com/aws/aws-sdk-go-v2/config v1.27.7 // indirect
@@ -64,11 +64,10 @@ require (
 	github.com/txthinking/socks5 v0.0.0-20230325130024-4230056ae301 // indirect
 	github.com/xtaci/kcp-go/v5 v5.6.8 // indirect
 	github.com/xtaci/smux v1.5.24 // indirect
-	gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/v2 v2.9.2 // indirect
 	golang.org/x/mod v0.17.0 // indirect
-	golang.org/x/sync v0.8.0 // indirect
-	golang.org/x/sys v0.26.0 // indirect
-	golang.org/x/text v0.19.0 // indirect
+	golang.org/x/sync v0.10.0 // indirect
+	golang.org/x/sys v0.28.0 // indirect
+	golang.org/x/text v0.21.0 // indirect
 	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
